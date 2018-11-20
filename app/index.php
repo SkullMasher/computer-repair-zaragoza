@@ -30,7 +30,7 @@
               </a>
             </div>
             <div class="contact__mail">
-              <a class="btn--info" href="mailto:florian@skullmasher.io">
+              <a class="btn--success" href="mailto:florian@skullmasher.io">
                 <picture class="mail"><?php echo file_get_contents('img/mail.svg') ?></picture>
                 <p>florian@skullmasher.io</p>
               </a>
