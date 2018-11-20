@@ -38,7 +38,7 @@
   max-width: 700px;
   color: #eee;
   padding: $spacer-small;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0px 0px 20px black;
   font-size: 2.5rem;
 }
 
@@ -53,10 +53,6 @@
   align-items: center;
 }
 
-.nevermore {
-  margin-left: $spacer-large;
-}
-
 .contact__qrcode {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 
@@ -65,8 +61,37 @@
   }
 }
 
+.nevermore {
+  margin-left: $spacer-large;
+
+  svg {
+    width: 55px;
+  }
+}
+
+.contact__btn {
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+
+  p{
+    margin-left: $spacer-medium;
+    margin-bottom: 0;
+    color: white;
+    font-size: 2rem;
+  }
+}
+
+.contact__picto {
+  // background-color: #fff;
+}
+
 .contact__phone {
   margin-bottom: $spacer-large;
+
+  svg {
+    fill: white;
+  }
 }
 
 .contact__mail {

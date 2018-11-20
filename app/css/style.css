@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../font/roboto.css);
 /*!
 * www.KNACSS.com v7.1.0 (october, 31 2018) @author: Alsacreations, Raphael Goetter
 * Licence WTFPL http://www.wtfpl.net/
@@ -2761,7 +2762,7 @@ button:focus {
   max-width: 700px;
   color: #eee;
   padding: 1rem;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 0px 0px 20px black;
   font-size: 2.5rem;
 }
 
@@ -2776,10 +2777,6 @@ button:focus {
   align-items: center;
 }
 
-.nevermore {
-  margin-left: 4rem;
-}
-
 .contact__qrcode {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
@@ -2788,8 +2785,33 @@ button:focus {
   border-radius: 5px;
 }
 
+.nevermore {
+  margin-left: 4rem;
+}
+
+.nevermore svg {
+  width: 55px;
+}
+
+.contact__btn {
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.contact__btn p {
+  margin-left: 2rem;
+  margin-bottom: 0;
+  color: white;
+  font-size: 2rem;
+}
+
 .contact__phone {
   margin-bottom: 4rem;
+}
+
+.contact__phone svg {
+  fill: white;
 }
 
 .contact__mail {
