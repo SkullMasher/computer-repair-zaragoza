@@ -44,6 +44,7 @@
 
 .main-title {
   font-size: 4rem;
+  margin-bottom: $spacer-medium;
 }
 
 .contact {
@@ -75,19 +76,24 @@
   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
 
   p{
-    margin-left: $spacer-medium;
+    flex-grow:1;
     margin-bottom: 0;
     color: white;
     font-size: 2rem;
+
   }
 }
 
 .contact__picto {
+    margin-right: $spacer-medium;
   // background-color: #fff;
 }
 
 .contact__phone {
   margin-bottom: $spacer-large;
+  p {
+    font-size: 3rem;
+  }
 
   svg {
     fill: white;

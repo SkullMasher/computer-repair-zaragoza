@@ -2768,6 +2768,7 @@ button:focus {
 
 .main-title {
   font-size: 4rem;
+  margin-bottom: 2rem;
 }
 
 .contact {
@@ -2800,14 +2801,22 @@ button:focus {
 }
 
 .contact__btn p {
-  margin-left: 2rem;
+  flex-grow: 1;
   margin-bottom: 0;
   color: white;
   font-size: 2rem;
 }
 
+.contact__picto {
+  margin-right: 2rem;
+}
+
 .contact__phone {
   margin-bottom: 4rem;
+}
+
+.contact__phone p {
+  font-size: 3rem;
 }
 
 .contact__phone svg {

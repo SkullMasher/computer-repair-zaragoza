@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
+	<meta name="description" content="Fix a slow computer for 25&nbsp;€ in Zaragoza. Windows, photoshop, office instalation. Diagnotic your computer.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Reparación de ordenadores en Zaragoza</title>
+	<title>Computer repair in Zaragoza</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,8 +13,8 @@
       <header class="tile-background">
         <div class="hero-content">
           <!-- <picture class="logo"><?php // echo file_get_contents('img/logo.svg') ?></picture> -->
-          <h1 class="main-title">¡Reparación de ordenadores!</h1>
-          <p class="main-text">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.</p>
+          <h1 class="main-title">Fix my computer already !</h1>
+          <p class="main-text">Slow computer ? Is your Photoshop Office or windows unregistered ? Let's have a talk ! I will repair your computer for cheap.</p>
         </div>
       </header>
       <footer class="flex-center">
@@ -24,9 +24,9 @@
           </div>
           <div class="nevermore">
             <div>
-              <a class="contact__btn contact__phone btn--primary" href="tel:+34645397709">
+              <a class="contact__btn contact__phone btn--primary" href="tel:+33625970561">
                 <picture class="contact__picto"><?php echo file_get_contents('img/phone.svg') ?></picture>
-                <p>645 397 709</p>
+                <p>+33625970561</p>
               </a>
             </div>
             <div>
