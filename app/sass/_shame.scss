@@ -56,9 +56,14 @@
 
 .contact__qrcode {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
 
-  img {
+  .svg-qrcode {
     border-radius: 5px;
+    width: 200px;
+    height: 200px;
   }
 }
 
