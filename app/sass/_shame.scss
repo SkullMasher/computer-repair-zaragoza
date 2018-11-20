@@ -1,0 +1,74 @@
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.box-center-fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  max-width:100%; // https://stackoverflow.com/questions/23367345/100vw-causing-horizontal-overflow-but-only-if-more-than-one
+  background-color: #333;
+  padding: $spacer-small;
+}
+
+.card {
+  max-width: 1200px;
+  background-color: #eee;
+}
+
+.tile-background {
+  background-image: url("../img/skullmasherio-tile.png");
+  padding-top: $spacer-large;
+  padding-right: $spacer-large;
+  padding-bottom: $spacer-large;
+  padding-left: $spacer-large;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.hero-content {
+  max-width: 700px;
+  color: #eee;
+  padding: $spacer-small;
+  text-shadow: 1px 1px 2px black;
+  font-size: 2.5rem;
+}
+
+.main-title {
+  font-size: 4rem;
+}
+
+.contact {
+  margin-top: $spacer-large;
+  margin-bottom: $spacer-large;
+  display: flex;
+  align-items: center;
+}
+
+.nevermore {
+  margin-left: $spacer-large;
+}
+
+.contact__qrcode {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.contact__phone {
+  margin-bottom: $spacer-large;
+}
+
+.contact__mail {
+  color: #000;
+}

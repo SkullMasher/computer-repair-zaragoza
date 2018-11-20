@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Fix a slow computer for 25&nbsp;€ in Zaragoza. Windows, photoshop, office instalation. Diagnotic your computer.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Computer repair in Zaragoza</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="canvas"></div>
+<header>
+  <div>
+    <h1 class="main-title">Computer repair in Zaragoza</h1>
+  </div>
+</header>
+<main>
+  <section class="services grid" id="services">
+    <div class="service row-all">
+      <div class="grid">
+        <div class="service__picto">
+
+        </div>
+        <div>
+          <h2 class="service__title">Fix my computer already !</h2>
+          <p class="service__description">Get a diagnotic, to undestand what is the best way to fix your computer.</p>
+          <p>Virus, malware, adware and bad program removal. Free up disk space. Apply industry best known fixes to solve any problem on your computer.</p>
+          <div class="service__actions flex-space-between">
+            <a tel="+33625970561" class="btn btn--primary">Call now</a>
+            <a href="mailto:florian@skullmasher.io" class="btn btn--ghost">Send me an email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="service-information">
+      <h3>Services Information</h3>
+      <h4>How will you repair my computer ?</h4>
+      <p></p>
+    </div>
+  </section>
+</main>
+<footer>
+
+</footer>
+</body>
+</html>

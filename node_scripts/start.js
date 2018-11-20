@@ -23,7 +23,7 @@ let appPath = {
 let isProxy = false
 
 // If isProxy is enable specify the path URL where the project files are
-let proxyURL = 'http://localhost/~user/wordpress-site/'
+let proxyURL = 'http://localhost/~skullmasher/computer-repair-zaragoza/'
 
 /*
  * You should not have to edit stuff beyond this warning
@@ -44,7 +44,7 @@ let greetingMessage = function () {
 greetingMessage()
 
 // Reload all browser on HTML change
-bs.watch(appPath.appFolderPath + '*.html').on('change', function () {
+bs.watch(appPath.appFolderPath + '*.php').on('change', function () {
   bs.reload()
 })
 
