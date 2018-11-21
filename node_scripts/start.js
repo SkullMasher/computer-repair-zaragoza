@@ -12,18 +12,18 @@ let log = console.log.bind(console)
 
 // add a '/' at the end
 let appPath = {
-  appFolderPath: 'app/',
-  cssFolderName: 'css/',
-  sassFolderName: 'sass/',
-  jsFolderName: 'js/',
-  imgFolderName: 'css/'
+  appFolderPath  : '',
+  cssFolderName  : 'css/',
+  sassFolderName : 'sass/',
+  jsFolderName   : 'js/',
+  imgFolderName  : 'css/'
 }
 
 // Set to true for serving php for exemple
-let isProxy = false
+let isProxy = true
 
 // If isProxy is enable specify the path URL where the project files are
-let proxyURL = 'http://localhost/~skullmasher/computer-repair-zaragoza/'
+let proxyURL = 'http://skull.ayax/~skullmasher/computer-repair-zaragoza/app/'
 
 /*
  * You should not have to edit stuff beyond this warning
@@ -98,11 +98,11 @@ let startBrowserSync = function () {
   if (isProxy) {
     return bs.init({
       proxy: proxyURL
+      // proxy: 'http://hl3.hope/~skullmasher/my-project/app'
     })
   } else {
     return bs.init({
       server: './' + appPath.appFolderPath
-      // proxy: 'http://hl3.hope/~skullmasher/my-project/app'
     })
   }
 }
