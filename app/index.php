@@ -10,11 +10,11 @@
 <body>
   <div class="page-head">
     <header class="page-head__background">
-      <div class="hero-content">
-        <picture class="logo"><?php echo file_get_contents('img/logo.svg') ?></picture>
+      <div class="page-head__layout page-head__layout--large">
+        <picture class="page-head__logo"><?php echo file_get_contents('img/logo.svg') ?></picture>
         <div class="item-fluid">
           <h1 class="page-head__title">¡Reparación de ordenadores!</h1>
-          <p class="page-head__tagline">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.</p>
+          <p class="page-head__tagline page-head__tagline--smaller">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa <strong class="color--success">¡Llámame!</strong> Arreglaré tu ordenador, por un <strong class="color--success">módico precio</strong>.</p>
         </div>
       </div>
     </header>

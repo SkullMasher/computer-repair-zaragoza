@@ -14,11 +14,48 @@
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
 }
+
+.page-head__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 850px;
+  margin: 0 auto;
+  color: #eee;
+  padding: $spacer-small;
+  text-shadow: 0px 0px 20px black;
+
+  @include respond-to("tiny-up") {
+    flex-direction: row;
+  }
+}
+
+.page-head__layout--large {
+  max-width: 950px;
+}
+
+.page-head__logo {
+  margin-top: $spacer-medium;
+
+  @include respond-to("medium-up") {
+    margin-right: $spacer-large;
+  }
+}
+
+.svg-logo {
+  width: 150px;
+}
+
 .page-head__title {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: $spacer-medium;
 }
 
 .page-head__tagline {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+}
+
+.page-head__tagline--smaller {
+  max-width: 640px;
 }
