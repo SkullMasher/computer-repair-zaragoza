@@ -10,14 +10,15 @@
 <body>
   <div class="page-head">
     <header class="page-head__background">
-      <div class="page-head__layout page-head__layout--large">
-        <picture class="page-head__logo"><?php echo file_get_contents('img/logo.svg') ?></picture>
-        <div class="item-fluid">
-          <h1 class="page-head__title">¡Reparación de ordenadores!</h1>
-          <p class="page-head__tagline page-head__tagline--smaller">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa <strong class="color--success">¡Llámame!</strong> Arreglaré tu ordenador, por un <strong class="color--success">módico precio</strong>.</p>
+        <div class="page-head__layout page-head__layout--large">
+          <picture class="page-head__logo"><?php echo file_get_contents('img/logo.svg') ?></picture>
+          <div class="item-fluid">
+            <h1 class="page-head__title">¡Reparación de ordenadores!</h1>
+            <p class="page-head__tagline page-head__tagline--smaller">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa <strong class="color--success">¡Llámame!</strong> Arreglaré tu ordenador, por un <strong class="color--success">módico precio</strong>.</p>
+          </div>
         </div>
-      </div>
-    </header>
+      <canvas class="canvas" id="canvas"></canvas>
+      </header>
     <footer class="flex-center">
       <div class="contact">
         <div class="contact__qrcode">
@@ -59,5 +60,6 @@
         <p>+33625970561</p>
       </div> -->
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
   </html>
