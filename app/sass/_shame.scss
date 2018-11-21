@@ -25,27 +25,34 @@
   background-color: #eee;
 }
 
-.tile-background {
-  background-image: url("../img/skullmasherio-tile.png");
-  padding-top: $spacer-large;
-  padding-right: $spacer-large;
-  padding-bottom: $spacer-large;
-  padding-left: $spacer-large;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
-}
-
 .hero-content {
-  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 850px;
+  margin: 0 auto;
   color: #eee;
   padding: $spacer-small;
   text-shadow: 0px 0px 20px black;
-  font-size: 2.5rem;
+
+  @include respond-to("tiny-up") {
+    flex-direction: row;
+  }
 }
 
-.main-title {
-  font-size: 4rem;
-  margin-bottom: $spacer-medium;
+.logo {
+  margin-top: $spacer-medium;
+
+  @include respond-to("medium-up") {
+    margin-right: $spacer-large;
+  }
 }
+
+.svg-logo {
+  width: 150px;
+}
+
 
 .contact {
   margin-top: $spacer-large;

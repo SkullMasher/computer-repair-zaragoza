@@ -1,0 +1,24 @@
+.page-head {
+
+}
+
+.page-head__background {
+  background-image: url("../img/skullmasherio-tile.png");
+  padding-top: $spacer-large;
+  padding-right: $spacer-large;
+  padding-bottom: $spacer-large;
+  padding-left: $spacer-large;
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
+
+  @include respond-to("medium-up") {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
+}
+.page-head__title {
+  font-size: 4rem;
+  margin-bottom: $spacer-medium;
+}
+
+.page-head__tagline {
+  font-size: 2.5rem;
+}
