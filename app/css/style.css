@@ -2818,17 +2818,24 @@ button:focus {
   color: #000;
 }
 
-.page-head__background {
+.canvas {
+  display: none;
+  background-color: #161616;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.page-head {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
   background-image: url("../img/skullmasherio-tile.png");
   padding-top: 4rem;
-  padding-right: 4rem;
   padding-bottom: 4rem;
-  padding-left: 4rem;
-  clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
 }
 
 @media (min-width: 768px) {
-  .page-head__background {
+  .page-head {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
 }

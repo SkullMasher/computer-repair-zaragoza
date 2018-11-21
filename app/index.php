@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="page-head">
-    <header class="page-head__background">
+    <header class="page-head">
         <div class="page-head__layout page-head__layout--large">
           <picture class="page-head__logo"><?php echo file_get_contents('img/logo.svg') ?></picture>
           <div class="item-fluid">
@@ -59,7 +58,6 @@
         <p>florian@skullmasher.io</p>
         <p>+33625970561</p>
       </div> -->
-    </div>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
   </html>
