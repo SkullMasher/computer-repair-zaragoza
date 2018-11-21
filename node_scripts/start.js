@@ -43,8 +43,11 @@ let greetingMessage = function () {
 
 greetingMessage()
 
-// Reload all browser on HTML change
-bs.watch(appPath.appFolderPath + '*.php').on('change', function () {
+// Reload all browser on HTML & PHP change
+bs.watch(appPath.appFolderPath + '**/*.php').on('change', function () {
+  bs.reload()
+})
+bs.watch(appPath.appFolderPath + '**/*.html').on('change', function () {
   bs.reload()
 })
 
