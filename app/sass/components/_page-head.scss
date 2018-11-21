@@ -8,6 +8,17 @@
   @include respond-to("medium-up") {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
+
+  [class*="btn"] {
+    padding-top: $spacer-medium;
+    padding-right: $spacer-large;
+    padding-bottom: $spacer-medium;
+    padding-left: $spacer-large;
+    font-size: 2rem;
+    color: $white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
 }
 
 .page-head__background {

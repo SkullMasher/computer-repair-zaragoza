@@ -2840,6 +2840,17 @@ button:focus {
   }
 }
 
+.page-head [class*="btn"] {
+  padding-top: 2rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 .page-head__layout {
   display: flex;
   flex-wrap: wrap;
