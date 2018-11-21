@@ -8,21 +8,6 @@
   @include respond-to("medium-up") {
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
-
-  [class*="btn"] {
-    padding-top: $spacer-medium;
-    padding-right: $spacer-large;
-    padding-bottom: $spacer-medium;
-    padding-left: $spacer-large;
-    font-size: 2rem;
-    color: $white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-}
-
-.page-head__background {
-
 }
 
 .page-head__layout {
@@ -31,7 +16,10 @@
   justify-content: center;
   flex-direction: column;
   max-width: 850px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: $spacer-large;
+  margin-left: auto;
   color: #eee;
   padding: $spacer-small;
   text-shadow: 0px 0px 20px black;
@@ -69,3 +57,52 @@
 .page-head__tagline--smaller {
   max-width: 640px;
 }
+
+.page-head__action {
+  display: flex;
+  justify-content: space-between;
+  max-width: 880px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: $spacer-large;
+  margin-left: auto;
+
+  [class*="btn"] {
+    color: $white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .btn--ghost {
+    &:hover {
+      background-color: $white;
+      color: $gray-900;
+
+      svg {
+        fill: $gray-900;
+      }
+    }
+  }
+}
+
+.page-head__button {
+  display: flex;
+  align-items: center;
+  margin-right: $spacer-medium;
+  margin-left: $spacer-medium;
+  padding-top: $spacer-medium;
+  padding-right: $spacer-large;
+  padding-bottom: $spacer-medium;
+  padding-left: $spacer-large;
+
+  svg {
+    width: 45px;
+    fill: $white;
+  }
+
+  span {
+    margin-left: $spacer-medium;
+  }
+}
+

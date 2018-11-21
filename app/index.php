@@ -16,13 +16,14 @@
         <p class="page-head__tagline page-head__tagline--smaller">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa <strong class="color--success">¡Llámame!</strong> Arreglaré tu ordenador, por un <strong class="color--success">módico precio</strong>.</p>
       </div>
     </div>
-    <div>
-      <div class="page-head__action">
-        <a class="btn--success btn--large" href="tel:+34645397709">645 397 709</a>
-      </div>
-      <div class="page-head__action">
-        <a class="btn btn--ghost btn--l" href="mailto:florian@skullmasher.io">florian@skullmasher.io</a>
-      </div>
+    <div class="page-head__action">
+        <a class="page-head__button btn--success" href="tel:+34645397709">
+          <?php echo file_get_contents('img/phone.svg') ?>
+          <span>645 397 709</span></a>
+        <a class="page-head__button btn--ghost" href="mailto:florian@skullmasher.io">
+          <?php echo file_get_contents('img/email.svg') ?>
+          <span>florian@skullmasher.io</span>
+        </a>
     </div>
     <canvas class="canvas" id="canvas"></canvas>
   </header>
