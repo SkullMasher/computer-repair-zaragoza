@@ -2863,24 +2863,25 @@ button:focus {
 
 .services {
   padding-top: 4rem;
+  padding-right: 1rem;
   padding-bottom: 4rem;
+  padding-left: 1rem;
 }
 
 .service {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 960px;
-  margin-top: 4rem;
-  margin-right: auto;
   margin-bottom: 4rem;
-  margin-left: auto;
   background-color: #fff;
   padding-top: 2rem;
-  padding-right: 4rem;
+  padding-right: 2rem;
   padding-bottom: 2rem;
-  padding-left: 4rem;
+  padding-left: 2rem;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1);
+}
+
+.service--large {
+  padding-right: 4rem;
+  padding-left: 4rem;
 }
 
 .services__picture {
@@ -2893,9 +2894,40 @@ button:focus {
 
 .service__price {
   align-self: center;
+  margin-left: 2rem;
+  font-size: 4rem;
+  color: #0275D8;
+}
+
+.service__price--large {
   margin-left: 4rem;
   font-size: 6rem;
-  color: #0275D8;
+}
+
+.service__warn {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1);
+}
+
+.service__warn .svg-info {
+  width: 35px;
+  margin-right: 1rem;
+  fill: #0275D8;
+}
+
+.service-info {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4rem;
+}
+
+.service-info__title {
+  margin-bottom: 1rem;
 }
 
 .about {
@@ -2909,6 +2941,7 @@ button:focus {
 .about__photo {
   width: 300px;
   margin-right: 2rem;
+  box-shadow: 0 2px 4px #32325d;
 }
 
 .about__title {
