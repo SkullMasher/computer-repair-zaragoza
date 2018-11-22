@@ -38,9 +38,12 @@
         <picture class="services__picture">
           <?php echo file_get_contents('img/speedometer.svg') ?>
         </picture>
-        <div class="">
-          <h2>Fix a slow computer</h2>
-          <p>Hello There c'est Skull</p>
+        <div class="item-fluid">
+          <h2>Fix my computer already !</h2>
+          <p>Your computer is slow </p>
+        </div>
+        <div class="service__price">
+          <div>35&nbsp;€</div>
         </div>
       </div>
     </section>
@@ -48,6 +51,7 @@
       <div class="wrapper">
         <div>
           <h3>Service Information</h3>
+          <p>I charge 5€ more if I need to pickup or drop the computer outside the city center or the univercity. I will reconsider this if you offer me trenza, cervesa or local food.</p>
           <p></p>
         </div>
       </div>

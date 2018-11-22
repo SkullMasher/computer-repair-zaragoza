@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(../font/roboto.css);
 /*!
 * www.KNACSS.com v7.1.0 (october, 31 2018) @author: Alsacreations, Raphael Goetter
 * Licence WTFPL http://www.wtfpl.net/
@@ -2809,7 +2808,7 @@ button:focus {
 }
 
 .page-head__tagline {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 .page-head__tagline--smaller {
@@ -2828,7 +2827,7 @@ button:focus {
 
 .page-head__action [class*="btn"] {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -2869,6 +2868,7 @@ button:focus {
 
 .service {
   display: flex;
+  flex-wrap: wrap;
   max-width: 960px;
   margin-top: 4rem;
   margin-right: auto;
@@ -2889,6 +2889,13 @@ button:focus {
 
 .services__picture .svg-computerspeed {
   width: 150px;
+}
+
+.service__price {
+  align-self: center;
+  margin-left: 4rem;
+  font-size: 6rem;
+  color: #0275D8;
 }
 
 .about {

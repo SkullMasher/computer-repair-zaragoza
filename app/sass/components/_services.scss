@@ -5,6 +5,7 @@
 
 .service {
   display: flex;
+  flex-wrap: wrap;
   max-width: 960px;
   margin-top: $spacer-large;
   margin-right: auto;
@@ -24,4 +25,10 @@
   .svg-computerspeed {
     width: 150px;
   }
+}
+.service__price {
+  align-self: center;
+  margin-left: $spacer-large;
+  font-size: 6rem;
+  color: $color-primary;
 }
