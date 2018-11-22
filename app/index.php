@@ -68,12 +68,15 @@
     </section>
   </main>
   <footer>
-    <section>
+    <section class="background--gray900 ptl pbl color--inverse">
       <div class="wrapper">
-        <div class="flaticon-credit">
+        <div class="mbs">
           <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
           <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
         </div>
+      </div>
+      <div class="wrapper">
+        <p>This website is <a href="https://github.com/SkullMasher/computer-repair-zaragoza">open source</a>.</p>
       </div>
     </section>
   </footer>

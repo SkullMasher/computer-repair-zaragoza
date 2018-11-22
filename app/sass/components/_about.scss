@@ -2,7 +2,7 @@
   padding-top: $spacer-large;
   padding-bottom: $spacer-large;
   background: #11998e;
-  background: linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to left, #38ef7d, #11998e);
   color: $white;
 }
 
@@ -13,4 +13,9 @@
 
 .about__title {
   margin-bottom: $spacer-medium;
+  text-shadow: 0px 0px 3px #666;
+}
+
+.about__text {
+  text-shadow: 0px 0px 3px #666;
 }

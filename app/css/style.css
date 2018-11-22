@@ -2738,6 +2738,10 @@ button:focus {
   background-color: #f8f9fa;
 }
 
+.background--gray900 {
+  background-color: #212529;
+}
+
 .canvas {
   display: none;
   background-color: #161616;
@@ -2891,7 +2895,7 @@ button:focus {
   padding-top: 4rem;
   padding-bottom: 4rem;
   background: #11998e;
-  background: linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to left, #38ef7d, #11998e);
   color: #fff;
 }
 
@@ -2902,6 +2906,11 @@ button:focus {
 
 .about__title {
   margin-bottom: 2rem;
+  text-shadow: 0px 0px 3px #666;
+}
+
+.about__text {
+  text-shadow: 0px 0px 3px #666;
 }
 
 /*# sourceMappingURL=style.map.css */
