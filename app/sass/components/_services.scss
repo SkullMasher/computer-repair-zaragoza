@@ -1,0 +1,27 @@
+.services {
+  padding-top: $spacer-large;
+  padding-bottom: $spacer-large;
+}
+
+.service {
+  display: flex;
+  max-width: 960px;
+  margin-top: $spacer-large;
+  margin-right: auto;
+  margin-bottom: $spacer-large;
+  margin-left: auto;
+  background-color: $white;
+  padding-top: $spacer-medium;
+  padding-right: $spacer-large;
+  padding-bottom: $spacer-medium;
+  padding-left: $spacer-large;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(50,50,93,.1);
+}
+
+.services__picture {
+  margin-right: $spacer-large;
+  .svg-computerspeed {
+    width: 150px;
+  }
+}

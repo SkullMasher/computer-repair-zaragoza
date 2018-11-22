@@ -1,0 +1,16 @@
+.about {
+  padding-top: $spacer-large;
+  padding-bottom: $spacer-large;
+  background: #11998e;
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  color: $white;
+}
+
+.about__photo {
+  width: 300px;
+  margin-right: $spacer-medium;
+}
+
+.about__title {
+  margin-bottom: $spacer-medium;
+}
