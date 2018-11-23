@@ -93,6 +93,10 @@
     border-radius: 5px;
   }
 
+  .btn--success {
+    margin-bottom: $spacer-medium;
+  }
+
   .btn--ghost {
     &:hover {
       background-color: $white;
@@ -106,6 +110,10 @@
 
   @include respond-to("medium-up") {
     flex-direction: row;
+
+    .btn--success {
+      margin-bottom: 0;
+    }
   }
 }
 

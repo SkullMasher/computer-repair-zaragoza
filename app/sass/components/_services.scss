@@ -22,21 +22,36 @@
 }
 
 .services__picture {
-  margin-right: $spacer-large;
+  margin-right: 0;
+  align-self: center;
+
   .svg-computerspeed {
     width: 150px;
+  }
+
+  @include respond-to("tiny-up") {
+    margin-right: $spacer-large;
   }
 }
 
 .service__price {
   align-self: center;
-  margin-left: $spacer-medium;
-  font-size: 4rem;
+  margin-left: 0;
+  font-size: 3rem;
   color: $color-primary;
 
   &--large {
-    margin-left: $spacer-large;
-    font-size: 6rem;
+    margin-left: 0;
+    font-size: 4.5rem;
+  }
+
+  @include respond-to("tiny-up") {
+    margin-left: $spacer-medium;
+    font-size: 4rem;
+
+    &--large {
+      font-size: 6rem;
+    }
   }
 }
 
@@ -61,6 +76,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: $spacer-large;
+  padding: $spacer-small;
 }
 
 .service-info__title {

@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="page-head__action">
-        <a class="page-head__button btn--success mbl" href="tel:+34645397709">
+        <a class="page-head__button btn--success" href="tel:+34645397709">
           <?php echo file_get_contents('img/phone.svg') ?>
           <span class="item-fluid">645 397 709</span>
         </a>

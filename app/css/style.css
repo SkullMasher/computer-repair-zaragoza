@@ -2853,6 +2853,10 @@ button:focus {
   border-radius: 5px;
 }
 
+.page-head__action .btn--success {
+  margin-bottom: 2rem;
+}
+
 .page-head__action .btn--ghost:hover {
   background-color: #fff;
   color: #212529;
@@ -2865,6 +2869,9 @@ button:focus {
 @media (min-width: 768px) {
   .page-head__action {
     flex-direction: row;
+  }
+  .page-head__action .btn--success {
+    margin-bottom: 0;
   }
 }
 
@@ -2924,23 +2931,40 @@ button:focus {
 }
 
 .services__picture {
-  margin-right: 4rem;
+  margin-right: 0;
+  align-self: center;
 }
 
 .services__picture .svg-computerspeed {
   width: 150px;
 }
 
+@media (min-width: 480px) {
+  .services__picture {
+    margin-right: 4rem;
+  }
+}
+
 .service__price {
   align-self: center;
-  margin-left: 2rem;
-  font-size: 4rem;
+  margin-left: 0;
+  font-size: 3rem;
   color: #0275D8;
 }
 
 .service__price--large {
-  margin-left: 4rem;
-  font-size: 6rem;
+  margin-left: 0;
+  font-size: 4.5rem;
+}
+
+@media (min-width: 480px) {
+  .service__price {
+    margin-left: 2rem;
+    font-size: 4rem;
+  }
+  .service__price--large {
+    font-size: 6rem;
+  }
 }
 
 .service__warn {
@@ -2964,6 +2988,7 @@ button:focus {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
+  padding: 1rem;
 }
 
 .service-info__title {
@@ -2982,6 +3007,7 @@ button:focus {
   width: 250px;
   align-self: center;
   margin-right: 0;
+  margin-bottom: 4rem;
   box-shadow: 0 2px 4px #32325d;
 }
 
@@ -2989,6 +3015,7 @@ button:focus {
   .about__photo {
     width: 300px;
     margin-right: 2rem;
+    margin-bottom: 0;
   }
 }
 
