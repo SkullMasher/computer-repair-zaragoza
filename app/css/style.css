@@ -2721,6 +2721,18 @@ button:focus {
   display: none;
 }
 
+.color--success {
+  color: #5CB85C;
+}
+
+.background--gray100 {
+  background-color: #f8f9fa;
+}
+
+.background--gray900 {
+  background-color: #212529;
+}
+
 .wrapper {
   max-width: 960px;
   margin-right: auto;
@@ -2733,20 +2745,78 @@ button:focus {
   max-width: 620px;
 }
 
-.background--gray100 {
-  background-color: #f8f9fa;
-}
-
-.background--gray900 {
-  background-color: #212529;
-}
-
 .canvas {
   display: none;
   background-color: #161616;
   position: absolute;
   top: 0;
   z-index: -1;
+}
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
 }
 
 .page-head {
@@ -2800,6 +2870,7 @@ button:focus {
   margin-bottom: 2rem;
   margin-right: 0;
   align-self: center;
+  animation: 1s zoomIn;
 }
 
 @media (min-width: 480px) {
@@ -2818,6 +2889,7 @@ button:focus {
   text-align: center;
   font-size: 4rem;
   margin-bottom: 2rem;
+  animation: .5s fadeInUp;
 }
 
 @media (min-width: 768px) {
@@ -2828,6 +2900,7 @@ button:focus {
 
 .page-head__tagline {
   font-size: 2.5rem;
+  animation: .75s fadeInUp;
 }
 
 .page-head__tagline--smaller {
@@ -2845,6 +2918,7 @@ button:focus {
   margin-left: auto;
   padding-right: 1rem;
   padding-left: 1rem;
+  animation: 1s fadeIn;
 }
 
 .page-head__action [class*="btn"] {
