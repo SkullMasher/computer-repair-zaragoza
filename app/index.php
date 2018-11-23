@@ -24,7 +24,7 @@
           <?php echo file_get_contents('img/phone.svg') ?>
           <span>645 397 709</span>
         </a>
-        <a class="page-head__button btn--ghost" href="mailto:florian@skullmasher.io">
+        <a class="page-head__button btn--ghost" href="mailto:skullm4sher@gmail.com?subject=Reparación de ordenadores en Zaragoza">
           <?php echo file_get_contents('img/email.svg') ?>
           <span>skullm4sher@gmail.com</span>
         </a>
@@ -42,8 +42,7 @@
           <div class="item-fluid">
             <h2>¡Poner a punto mi ordenador!</h2>
             <p>Hacer un diagnóstico para saber cuál es el problema y la mejor manera de arreglarlo. Get a diagnotic, to undestand what is the best way to fix your computer.</p>
-            <p>Eliminar virus, malwares y software publicitarios. Liberar espacio en el disco duro.
-            Deje en manos de un profesional que conozca las mejores soluciones, la seguridad y la reparación de su equipo.</p>
+            <p>Eliminar virus, malwares y software publicitarios. Liberar espacio en el disco duro. Deje en manos de un profesional que conozca las mejores soluciones, la seguridad y la reparación de su equipo.</p>
           </div>
           <div class="service__price service__price--large">
             <p class="mbn">35&nbsp;€</p>
@@ -96,7 +95,6 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">Sobre mí</h3>
-            <!-- <p class="about__text"><strong>I'm Florian</strong>. I'm a 26 years old <a href="https://skullmasher.io">freelance programmer</a> from France. I have been repairing and assembling computer since 2008. I did computer repair in a major european corporation and in my neighboohod for 2 years. I'm here in Zaragoza to do computer repair or small website until <strong>november 30th</strong>.</p> -->
             <p class="about__text"><strong>Me llamo Florian</strong>. Soy un <a href="https://skullmasher.io">programador freelance</a> de 26 años. LLevo programando, reparando y construyendo ordenadores desde 2008. He trabajado durante más dos años para empresas como Allianz, además de montar ordenadores por encargo. Normalmente resido en París, no obstante residiré en Zaragoza hasta el próximo 30 de noviembre para reparar ordenadores y hacer webs.</p>
           </div>
         </div>
