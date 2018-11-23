@@ -111,6 +111,10 @@
   @include respond-to("medium-up") {
     justify-content: space-between;
   }
+
+  @include respond-to("large-up") {
+    max-width: 945px;
+  }
 }
 
 .page-head__button {
