@@ -41,7 +41,7 @@
           </picture>
           <div class="item-fluid">
             <h2>Fix my computer already !</h2>
-            <p>Get a diagnotic, to undestand what is the best way to fix your computer.</p>
+            <p>Get a diagnostic, to understand what is the best way to fix your computer.</p>
             <p>Virus, malware, adware removal. Free up disk space. Apply industry best known fixes to solve problems on your computer.</p>
           </div>
           <div class="service__price service__price--large">
@@ -74,7 +74,7 @@
       <div class="flex-container">
         <div class="service__warn center">
           <?php echo file_get_contents('img/info.svg') ?>
-          <p class="mbn">Price may vary depending the diagnotic.</p>
+          <p class="mbn">Price may vary depending the diagnostic.</p>
         </div>
       </div>
     </section>
@@ -82,7 +82,7 @@
       <div class="service-info">
         <h3 class="service-info__title">Additional Information</h3>
         <div class="mlm">
-          <p>It will be charged 5€ more if it's necessary to pick up or drop the computer outside the city center or the univercity (I will reconsider this if you offer me trenza, cervesa or local food).</p>
+          <p>I can pick up and left off your computer <strong>in Zaragoza only</strong>. I will charge 5€ more if you are located outside the city center or the university (I will reconsider this if you offer me trenza, cervesa or local food).</p>
           <p class="mbn">I will provide an invoice with detailed information about what I do on the computer at the end of the service.</p>
         </div>
       </div>
@@ -95,7 +95,7 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">About me</h3>
-            <p class="about__text"><strong>I'm Florian</strong>. I'm a 26 years old <a href="https://skullmasher.io">freelance programmer</a> from France. I have been repairing and assembling computer since 2008. I did computer repair in a major european corporation and in my neighboohod for 2 years. I'm here in Zaragoza to do computer repair or small website until <strong>november 30th</strong>.</p>
+            <p class="about__text"><strong>I'm Florian</strong>. I'm a 26 years old <a href="https://skullmasher.io">freelance programmer</a> from France. I have been repairing and assembling computer since 2008. I did computer repair in a major European corporation and in my neighborhood for 2 years. I'm here in Zaragoza to do computer repair or small website until <strong>November 30th</strong>.</p>
           </div>
         </div>
       </div>
