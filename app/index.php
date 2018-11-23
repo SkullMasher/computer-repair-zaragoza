@@ -40,9 +40,10 @@
             <?php echo file_get_contents('img/speedometer.svg') ?>
           </picture>
           <div class="item-fluid">
-            <h2>Fix my computer already !</h2>
-            <p>Get a diagnotic, to undestand what is the best way to fix your computer.</p>
-            <p>Virus, malware, adware removal. Free up disk space. apply industry best known fixes to solve any problem on your computer.</p>
+            <h2>¡Poner a punto mi ordenador!</h2>
+            <p>Hacer un diagnóstico para saber cuál es el problema y la mejor manera de arreglarlo. Get a diagnotic, to undestand what is the best way to fix your computer.</p>
+            <p>Eliminar virus, malwares y software publicitarios. Liberar espacio en el disco duro.
+            Deje en manos de un profesional que conozca las mejores soluciones, la seguridad y la reparación de su equipo.</p>
           </div>
           <div class="service__price service__price--large">
             <p class="mbn">35&nbsp;€</p>
@@ -51,21 +52,23 @@
       </div>
       <div class="grid-2 has-gutter-xl">
         <div class="service">
-          <div class="item-fluid">
-            <h2>Install an application</h2>
-            <p>Do you have an unregistered software ? Let's talk about it.</p>
-          </div>
-          <div class="service__price">
-            <div>10&nbsp;€</div>
+          <h2>Install an application</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <p class="mbn">Do you have an unregistered software ? Let's talk about it.</p>
+            </div>
+            <div class="service__price">
+              <div>10&nbsp;€</div>
+            </div>
           </div>
         </div>
         <div class="service">
-          <div class="item-fluid">
-            <h2>I want the same website</h2>
-            <p>Do you find this website cool ? I can make you one just like it</p>
-          </div>
-          <div class="service__price">
-            <div>35&nbsp;€</div>
+          <h2>I want the same website</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <p class="mbn">Do you find this website cool ?</p>
+              <p class="mbn">I can make one for you just like it.</p>
+            </div>
           </div>
         </div>
       </div>
