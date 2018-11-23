@@ -7,9 +7,15 @@
 }
 
 .about__photo {
-  width: 300px;
-  margin-right: $spacer-medium;
+  width: 250px;
+  align-self: center;
+  margin-right: 0;
   box-shadow: 0 2px 4px rgba(50, 50, 93, 1);
+
+  @include respond-to("tiny-up") {
+    width: 300px;
+    margin-right: $spacer-medium;
+  }
 }
 
 .about__title {

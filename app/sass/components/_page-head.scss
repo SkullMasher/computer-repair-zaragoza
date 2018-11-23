@@ -2,10 +2,12 @@
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
   background-image: url("../img/skullmasherio-tile.png");
-  padding-top: $spacer-large;
+  padding-top: 0;
   padding-bottom: $spacer-large;
 
+
   @include respond-to("medium-up") {
+    padding-top: $spacer-large;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
 }
@@ -18,7 +20,7 @@
   max-width: 850px;
   margin-top: 0;
   margin-right: auto;
-  margin-bottom: $spacer-large;
+  margin-bottom: $spacer-medium;
   margin-left: auto;
   color: #eee;
   padding: $spacer-small;
@@ -27,6 +29,10 @@
   @include respond-to("tiny-up") {
     flex-direction: row;
   }
+
+  @include respond-to("medium-up") {
+    margin-bottom: $spacer-large;
+  }
 }
 
 .page-head__layout--large {
@@ -34,11 +40,17 @@
 }
 
 .page-head__logo {
-  margin-top: $spacer-medium;
+  margin-top: $spacer-small;
+  margin-bottom: $spacer-medium;
+  margin-right: 0;
+  align-self: center;
 
   @include respond-to("medium-up") {
+    margin-top: $spacer-medium;
     margin-right: $spacer-large;
+    margin-bottom: 0;
   }
+
 }
 
 .svg-logo {
@@ -46,8 +58,13 @@
 }
 
 .page-head__title {
-  font-size: 5rem;
+  text-align: center;
+  font-size: 4rem;
   margin-bottom: $spacer-medium;
+
+  @include respond-to("medium-up") {
+    font-size: 5rem;
+  }
 }
 
 .page-head__tagline {
@@ -60,16 +77,18 @@
 
 .page-head__action {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 880px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: $spacer-large;
   margin-left: auto;
+  padding-right: $spacer-small;
+  padding-left: $spacer-small;
 
   [class*="btn"] {
     color: $white;
-    font-size: 2.4rem;
     text-decoration: none;
     border-radius: 5px;
   }
@@ -84,25 +103,40 @@
       }
     }
   }
+
+  @include respond-to("medium-up") {
+    flex-direction: row;
+  }
 }
 
 .page-head__button {
   display: flex;
   align-items: center;
-  margin-right: $spacer-medium;
-  margin-left: $spacer-medium;
-  padding-top: $spacer-medium;
-  padding-right: $spacer-large;
-  padding-bottom: $spacer-medium;
-  padding-left: $spacer-large;
+  padding-top: $spacer-small;
+  padding-right: $spacer-medium;
+  padding-bottom: $spacer-small;
+  padding-left: $spacer-medium;
+  font-size: 1.8rem;
 
   svg {
-    width: 45px;
+    width: 35px;
     fill: $white;
   }
 
   span {
     margin-left: $spacer-medium;
+  }
+
+  @include respond-to("tiny-up") {
+    font-size: 2.4rem;
+    padding-top: $spacer-medium;
+    padding-right: $spacer-large;
+    padding-bottom: $spacer-medium;
+    padding-left: $spacer-large;
+
+    svg {
+      width: 45px;
+    }
   }
 }
 

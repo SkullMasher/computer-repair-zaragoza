@@ -57,11 +57,12 @@
 
 .service-info {
   max-width: 700px;
+  margin-top: $spacer-large;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: $spacer-large;
 }
 
 .service-info__title {
-  margin-bottom: $spacer-small;
+  margin-bottom: $spacer-medium;
 }

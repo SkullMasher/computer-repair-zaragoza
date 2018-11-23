@@ -20,13 +20,13 @@
         </div>
       </div>
       <div class="page-head__action">
-        <a class="page-head__button btn--success" href="tel:+34645397709">
+        <a class="page-head__button btn--success mbl" href="tel:+34645397709">
           <?php echo file_get_contents('img/phone.svg') ?>
-          <span>645 397 709</span>
+          <span class="item-fluid">645 397 709</span>
         </a>
         <a class="page-head__button btn--ghost" href="mailto:florian@skullmasher.io">
           <?php echo file_get_contents('img/email.svg') ?>
-          <span>florian@skullmasher.io</span>
+          <span>skullm4sher@gmail.com</span>
         </a>
       </div>
       <canvas class="canvas" id="canvas"></canvas>
@@ -82,8 +82,10 @@
     <section>
       <div class="service-info">
         <h3 class="service-info__title">Additional Information</h3>
-        <p>It will be charged 5€ more if it's necessary to pick up or drop the computer outside the city center or the univercity (I will reconsider this if you offer me trenza, cervesa or local food).</p>
-        <p>I will provide an invoice with detailed information about what I do on the computer at the end of the service.</p>
+        <div class="mlm">
+          <p>It will be charged 5€ more if it's necessary to pick up or drop the computer outside the city center or the univercity (I will reconsider this if you offer me trenza, cervesa or local food).</p>
+          <p class="mbn">I will provide an invoice with detailed information about what I do on the computer at the end of the service.</p>
+        </div>
       </div>
     </section>
     <section>

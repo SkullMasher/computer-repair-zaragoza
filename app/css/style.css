@@ -2753,12 +2753,13 @@ button:focus {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
   background-image: url("../img/skullmasherio-tile.png");
-  padding-top: 4rem;
+  padding-top: 0;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 768px) {
   .page-head {
+    padding-top: 4rem;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
   }
 }
@@ -2771,7 +2772,7 @@ button:focus {
   max-width: 850px;
   margin-top: 0;
   margin-right: auto;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   margin-left: auto;
   color: #eee;
   padding: 1rem;
@@ -2784,17 +2785,28 @@ button:focus {
   }
 }
 
+@media (min-width: 768px) {
+  .page-head__layout {
+    margin-bottom: 4rem;
+  }
+}
+
 .page-head__layout--large {
   max-width: 950px;
 }
 
 .page-head__logo {
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 0;
+  align-self: center;
 }
 
 @media (min-width: 768px) {
   .page-head__logo {
+    margin-top: 2rem;
     margin-right: 4rem;
+    margin-bottom: 0;
   }
 }
 
@@ -2803,8 +2815,15 @@ button:focus {
 }
 
 .page-head__title {
-  font-size: 5rem;
+  text-align: center;
+  font-size: 4rem;
   margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .page-head__title {
+    font-size: 5rem;
+  }
 }
 
 .page-head__tagline {
@@ -2817,17 +2836,19 @@ button:focus {
 
 .page-head__action {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-width: 880px;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 4rem;
   margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .page-head__action [class*="btn"] {
   color: #fff;
-  font-size: 2.4rem;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -2841,24 +2862,42 @@ button:focus {
   fill: #212529;
 }
 
+@media (min-width: 768px) {
+  .page-head__action {
+    flex-direction: row;
+  }
+}
+
 .page-head__button {
   display: flex;
   align-items: center;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  padding-top: 2rem;
-  padding-right: 4rem;
-  padding-bottom: 2rem;
-  padding-left: 4rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
 }
 
 .page-head__button svg {
-  width: 45px;
+  width: 35px;
   fill: #fff;
 }
 
 .page-head__button span {
   margin-left: 2rem;
+}
+
+@media (min-width: 480px) {
+  .page-head__button {
+    font-size: 2.4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+  }
+  .page-head__button svg {
+    width: 45px;
+  }
 }
 
 .services {
@@ -2921,13 +2960,14 @@ button:focus {
 
 .service-info {
   max-width: 700px;
+  margin-top: 4rem;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4rem;
 }
 
 .service-info__title {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about {
@@ -2939,9 +2979,17 @@ button:focus {
 }
 
 .about__photo {
-  width: 300px;
-  margin-right: 2rem;
+  width: 250px;
+  align-self: center;
+  margin-right: 0;
   box-shadow: 0 2px 4px #32325d;
+}
+
+@media (min-width: 480px) {
+  .about__photo {
+    width: 300px;
+    margin-right: 2rem;
+  }
 }
 
 .about__title {
