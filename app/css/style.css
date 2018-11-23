@@ -2802,7 +2802,7 @@ button:focus {
   align-self: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .page-head__logo {
     margin-top: 2rem;
     margin-right: 4rem;
@@ -2836,8 +2836,8 @@ button:focus {
 
 .page-head__action {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 880px;
   margin-top: 0;
   margin-right: auto;
@@ -2853,10 +2853,6 @@ button:focus {
   border-radius: 5px;
 }
 
-.page-head__action .btn--success {
-  margin-bottom: 2rem;
-}
-
 .page-head__action .btn--ghost:hover {
   background-color: #fff;
   color: #212529;
@@ -2868,16 +2864,14 @@ button:focus {
 
 @media (min-width: 768px) {
   .page-head__action {
-    flex-direction: row;
-  }
-  .page-head__action .btn--success {
-    margin-bottom: 0;
+    justify-content: space-between;
   }
 }
 
 .page-head__button {
   display: flex;
   align-items: center;
+  margin-bottom: 2rem;
   padding-top: 1rem;
   padding-right: 2rem;
   padding-bottom: 1rem;
@@ -2897,6 +2891,8 @@ button:focus {
 @media (min-width: 480px) {
   .page-head__button {
     font-size: 2.4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding-top: 2rem;
     padding-right: 4rem;
     padding-bottom: 2rem;

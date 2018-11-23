@@ -45,7 +45,7 @@
   margin-right: 0;
   align-self: center;
 
-  @include respond-to("medium-up") {
+  @include respond-to("tiny-up") {
     margin-top: $spacer-medium;
     margin-right: $spacer-large;
     margin-bottom: 0;
@@ -77,8 +77,8 @@
 
 .page-head__action {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   max-width: 880px;
   margin-top: 0;
   margin-right: auto;
@@ -93,10 +93,6 @@
     border-radius: 5px;
   }
 
-  .btn--success {
-    margin-bottom: $spacer-medium;
-  }
-
   .btn--ghost {
     &:hover {
       background-color: $white;
@@ -109,17 +105,14 @@
   }
 
   @include respond-to("medium-up") {
-    flex-direction: row;
-
-    .btn--success {
-      margin-bottom: 0;
-    }
+    justify-content: space-between;
   }
 }
 
 .page-head__button {
   display: flex;
   align-items: center;
+  margin-bottom: $spacer-medium;
   padding-top: $spacer-small;
   padding-right: $spacer-medium;
   padding-bottom: $spacer-small;
@@ -137,6 +130,8 @@
 
   @include respond-to("tiny-up") {
     font-size: 2.4rem;
+    margin-right: $spacer-small;
+    margin-left: $spacer-small;
     padding-top: $spacer-medium;
     padding-right: $spacer-large;
     padding-bottom: $spacer-medium;
