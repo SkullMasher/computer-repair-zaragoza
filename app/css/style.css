@@ -3035,7 +3035,7 @@ button:focus {
 
 @media (min-width: 480px) {
   .service__price {
-    margin-left: 2rem;
+    margin-left: 4rem;
     font-size: 4rem;
   }
   .service__price--large {
@@ -3068,6 +3068,7 @@ button:focus {
 }
 
 .service-info__title {
+  margin-left: 2rem;
   margin-bottom: 2rem;
 }
 

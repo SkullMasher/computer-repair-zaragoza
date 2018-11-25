@@ -41,8 +41,8 @@
           </picture>
           <div class="item-fluid">
             <h2>¡Poner a punto mi ordenador!</h2>
-            <p>Hacer un diagnóstico para saber cuál es el problema y la mejor manera de arreglarlo. Get a diagnotic, to undestand what is the best way to fix your computer.</p>
-            <p>Eliminar virus, malwares y software publicitarios. Liberar espacio en el disco duro. Deje en manos de un profesional que conozca las mejores soluciones, la seguridad y la reparación de su equipo.</p>
+            <p>Hacer un diagnóstico para saber cuál es el problema y la mejor manera de arreglarlo.</p>
+            <p>Eliminar virus, malwares y software publicitarios. Liberar espacio en el disco duro. Deja en manos de un profesional que conozca las mejores soluciones, la seguridad y la reparación de tu equipo.</p>
           </div>
           <div class="service__price service__price--large">
             <p class="mbn">35&nbsp;€</p>
@@ -51,10 +51,11 @@
       </div>
       <div class="grid-2 has-gutter-xl">
         <div class="service">
-          <h2>Install an application</h2>
+          <h2>Instalar una aplicación</h2>
           <div class="flex-container">
             <div class="item-fluid">
-              <p class="mbn">Do you have an unregistered software ? Let's talk about it.</p>
+              <p>¿Estás utilizando un producto sin estar registrado?</p>
+              <p class="mbn">¿Estás buscando la última actualización?</p>
             </div>
             <div class="service__price">
               <div>10&nbsp;€</div>
@@ -62,11 +63,10 @@
           </div>
         </div>
         <div class="service">
-          <h2>I want the same website</h2>
+          <h2>Quiero este mismo diseño para mi web</h2>
           <div class="flex-container">
             <div class="item-fluid">
-              <p class="mbn">Do you find this website cool ?</p>
-              <p class="mbn">I can make one for you just like it.</p>
+              <p class="mbn">Si te interesa este mismo diseño o cualquier otro similar o diferente... Puedo hacer uno justo como este u otro siguiendo tus preferencias.</p>
             </div>
           </div>
         </div>
@@ -74,16 +74,16 @@
       <div class="flex-container">
         <div class="service__warn center">
           <?php echo file_get_contents('img/info.svg') ?>
-          <p class="mbn">Price may vary depending the diagnotic.</p>
+          <p class="mbn">El precio puede cambiar dependiendo del diagnóstico.</p>
         </div>
       </div>
     </section>
     <section>
       <div class="service-info">
-        <h3 class="service-info__title">Additional Information</h3>
-        <div class="mlm">
-          <p>It will be charged 5€ more if it's necessary to pick up or drop the computer outside the city center or the univercity (I will reconsider this if you offer me trenza, cervesa or local food).</p>
-          <p class="mbn">I will provide an invoice with detailed information about what I do on the computer at the end of the service.</p>
+        <h3 class="service-info__title">Información adicional</h3>
+        <div>
+          <p>Se aplicará un cargo adicional de 5€ si es necesario recoger o entregar el ordenador lejos del centro de la ciudad o del entorno de la ciudad universitaria.</p>
+          <p class="mbn">Una vez finalizado el trabajo, se entregará un recibo con desglose de las operaciones llevadas a cabo en el equipo.</p>
         </div>
       </div>
     </section>

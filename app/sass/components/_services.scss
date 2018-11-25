@@ -46,7 +46,7 @@
   }
 
   @include respond-to("tiny-up") {
-    margin-left: $spacer-medium;
+    margin-left: $spacer-large;
     font-size: 4rem;
 
     &--large {
@@ -80,5 +80,6 @@
 }
 
 .service-info__title {
+  margin-left: $spacer-medium;
   margin-bottom: $spacer-medium;
 }
