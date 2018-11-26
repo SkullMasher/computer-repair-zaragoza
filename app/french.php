@@ -28,7 +28,7 @@
           <?php echo file_get_contents('img/phone.svg') ?>
           <span>+336 25 97 05 61</span>
         </a>
-        <a class="page-head__button btn--ghost" href="mailto:skullm4sher@gmail.com?subject=Computer repair in Zaragoza">
+        <a class="page-head__button btn--ghost" href="mailto:skullm4sher@gmail.com?subject=Réparation ordinateur à Zaragoza">
           <?php echo file_get_contents('img/email.svg') ?>
           <span>skullm4sher@gmail.com</span>
         </a>
@@ -46,7 +46,7 @@
           <div class="item-fluid">
             <h2>Répare mon ordinateur !</h2>
             <p>Effectuons un diagnotique, pour comprendre quel est le meilleur moyen de réparer ton ordinateur.</p>
-            <p>Suppression des Virus, malware et adware. Libération de l'éspace dique. Apppliquer les meilleurs trucs et astuces de l'industrie pour réparer votre ordinateur.</p>
+            <p>Suppression des Virus, malware et adware. Libération de l'espace disque. Appliquer les meilleurs trucs et astuces de l'industrie pour réparer votre ordinateur.</p>
           </div>
           <div class="service__price service__price--large">
             <p class="mbn">35&nbsp;€</p>
@@ -86,8 +86,8 @@
       <div class="service-info">
         <h3 class="service-info__title">Information supplémentaire</h3>
         <div class="mlm">
-          <p>Je peux emporter et ramenner votre ordinateur à <strong>in Zaragoza uniquement</strong>. Je commisionerais 5€ supplémentaire si vous etes situer en dehors du centre-ville ou de la zone universitaire (Je suis pret à reconsidérer ce choix si vous m'offrez de la trenza, une bière, ou de la nourriture local).</p>
-          <p class="mbn">Je delivre une facture détaillé à chaque fin de prestation pour que vous puissiez avoir une trace des changement dans vote ordinateur sans surprise.</p>
+          <p>Je peux emporter et ramener votre ordinateur à <strong>Saragosse uniquement</strong>. Je demanderais 5€ supplémentaire si vous êtes situé en dehors du centre-ville ou de la zone universitaire (Je suis prêt à reconsidérer ce choix si vous m'offrez de la trenza, une bière, ou de la nourriture local).</p>
+          <p class="mbn">Je délivre une facture détaillée à chaque fin de prestation pour que vous puissiez avoir une trace des changements dans vote ordinateur sans surprise.</p>
         </div>
       </div>
     </section>
@@ -99,7 +99,7 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">A propos</h3>
-            <p class="about__text"><strong>Je m'appelle FLorian</strong>. J'ai 26ans et je suis <a href="https://skullmasher.io">programmeur freelance</a> en France. Je répare et assemble des ordinateur depuis 2008. J'ai pratiquer la réparation d'ordinateur en entreprise et dans mon quartier pendant 2 ans. Je suis à Zaragoza pour réparer des ordinateurs et créer des petits site web vitrine jusqu'au <strong>30 novembre</strong>.</p>
+            <p class="about__text"><strong>Je m'appelle Florian.</strong> J'ai 26ans et je suis programmeur freelance en France. Je répare et assemble des ordinateurs depuis 2008. J'ai pratiqué la réparation d'ordinateur en entreprise et dans mon quartier pendant 2 ans. Je suis à Saragosse pour réparer des ordinateurs et créer des petits sites web vitrine jusqu’au <strong>30 novembre</strong>.</p>
           </div>
         </div>
       </div>

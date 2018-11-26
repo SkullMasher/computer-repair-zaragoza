@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reparación de ordenadores en Zaragoza - Skullmasher.io</title>
+  <link rel="stylesheet" href="css/style.css">
   <meta name="google-site-verification" content="IbZp28iRwH2-vl68Q33o3Ym1K2R7YO1EQKUC6YTFdbs" />
-	<meta charset="UTF-8">
-	<meta name="description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Reparación de ordenadores en Zaragoza - Skullmasher.io</title>
-	<link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="Reparación de ordenadores en Zaragoza">
+  <meta property="og:site_name" content="Reparación de ordenadores en Zaragoza - Skullmasher.io">
+  <meta property="og:url" content="https://skullmasher.io/reparacion-ordenador-zaragoza/">
+  <meta property="og:description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://skullmasher.io/reparacion-ordenador-zaragoza/img/opengraph_screenshot.png">
 </head>
 <body>
   <nav class="nav-langage">
