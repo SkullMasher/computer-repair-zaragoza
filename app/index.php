@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta name="google-site-verification" content="IbZp28iRwH2-vl68Q33o3Ym1K2R7YO1EQKUC6YTFdbs" />
 	<meta charset="UTF-8">
 	<meta name="description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
