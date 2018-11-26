@@ -2819,6 +2819,21 @@ button:focus {
   animation-name: zoomIn;
 }
 
+.nav-langage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-langage__link {
+  width: 65px;
+  padding: 1rem;
+  display: block;
+}
+
 .page-head {
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
@@ -2866,7 +2881,7 @@ button:focus {
 }
 
 .page-head__logo {
-  margin-top: 1rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;
   margin-right: 0;
   align-self: center;

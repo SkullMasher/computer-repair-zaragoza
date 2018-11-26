@@ -1,0 +1,21 @@
+.nav-langage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-langage__link {
+  width: 65px;
+  padding: $spacer-small;
+  display: block;
+}
+
+// .nav-langage__es {
+// }
+
+// .nav-langage__fr {
+//   width: 50px;
+// }

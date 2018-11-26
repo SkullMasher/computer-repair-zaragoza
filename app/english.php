@@ -65,7 +65,7 @@
           <h2>I want the same website</h2>
           <div class="flex-container">
             <div class="item-fluid">
-              <p class="mbn">Do you find this website cool ?</p>
+              <p>Do you find this website cool ?</p>
               <p class="mbn">I can make one for you just like it.</p>
             </div>
           </div>
