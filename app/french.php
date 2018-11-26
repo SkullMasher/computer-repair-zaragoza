@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <nav class="nav-langage">
+    <a class="nav-langage__link nav-langage__gb" href="index.php"><img src="img/es.svg"></a>
+    <a class="nav-langage__link nav-langage__fr" href="english.php"><?php echo file_get_contents('img/gb.svg') ?></a>
+  </nav>
   <div class="background--gray100">
     <header class="page-head">
       <div class="page-head__layout page-head__layout--large">
