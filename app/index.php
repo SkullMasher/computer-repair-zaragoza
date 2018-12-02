@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="google-site-verification" content="IbZp28iRwH2-vl68Q33o3Ym1K2R7YO1EQKUC6YTFdbs" />
   <meta property="og:title" content="Reparación de ordenadores en Zaragoza">
-  <meta property="og:site_name" content="Reparación de ordenadores en Zaragoza - Skullmasher.io">
+  <meta property="og:site_name" content="skullmasher.io">
   <meta property="og:url" content="https://skullmasher.io/reparacion-ordenador-zaragoza/">
   <meta property="og:description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://skullmasher.io/reparacion-ordenador-zaragoza/img/opengraph_screenshot.png">
+  <meta property="og:image" content="https://skullmasher.io/reparacion-ordenador-zaragoza/img/computer_repair_guy_logo.jpg">
 </head>
 <body>
   <nav class="nav-langage">
@@ -26,8 +26,9 @@
           <?php echo file_get_contents('img/logo.svg') ?>
         </picture>
         <div class="item-fluid">
-          <h1 class="page-head__title">¡Reparación de ordenadores!</h1>
-          <p class="page-head__tagline page-head__tagline--smaller">Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa <strong class="color--success">¡Llámame!</strong> Arreglaré tu ordenador, por un <strong class="color--success">módico precio</strong>.</p>
+          <h1 class="page-head__title">¡Reparación de ordenadores a domicilio!</h1>
+          <p class="page-head__tagline page-head__tagline--smaller">Si necesitas arreglar tu ordenador, formatearlo, limpiarlo de algún virus, reinstalar el sistema operativo o conseguir algún programa ¡Llámame! Arreglaré tu ordenador por un <strong class="color--success">módico precio</strong>. Portatil o sobremesa. Desde particiones del disco duro a optimización del sistema, recuperación de datos o bloqueo de publicidad.</p>
+          <p class="page-head__tagline page-head__tagline--smaller"><strong class="color--success">Rápido</strong>, serio y profesional. Entre semana, findes y festivos. Atiendo Whatsapp. ¡También creo webs de negocios!</p>
         </div>
       </div>
       <div class="page-head__action">
