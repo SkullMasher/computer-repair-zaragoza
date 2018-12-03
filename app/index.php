@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://skullmasher.io/reparacion-ordenador-zaragoza/">
   <meta property="og:description" content="Si tu ordenador va muy lento, crees que puede estar roto, o estás pensando en instalar o conseguir algún programa ¡Llámame! Arreglaré tu ordenador, sea lo sea lo que le pase, por un módico precio.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://skullmasher.io/reparacion-ordenador-zaragoza/img/opengraph_image.jpg">
+  <meta property="og:image" content="https://skullmasher.io/reparacion-ordenador-zaragoza/img/opengraph_image_1.jpg">
 </head>
 <body>
   <nav class="nav-langage">
