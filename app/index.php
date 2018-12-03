@@ -106,7 +106,7 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">Sobre mí</h3>
-            <p class="about__text"><strong>Me llamo Florian</strong>. Soy un <a href="https://skullmasher.io">programador freelance</a> de 26 años. LLevo programando, reparando y construyendo ordenadores desde 2008. He trabajado durante más dos años para empresas como Allianz, además de montar ordenadores por encargo. Normalmente resido en París, no obstante residiré en Zaragoza hasta el próximo 30 de noviembre para reparar ordenadores y hacer webs.</p>
+            <p class="about__text"><strong>Me llamo Florian</strong>. Soy un <a href="https://skullmasher.io">programador freelance</a> de 26 años. LLevo programando, reparando y construyendo ordenadores desde 2008. He trabajado durante más dos años para empresas como Allianz, además de montar ordenadores por encargo.</p>
           </div>
         </div>
       </div>
