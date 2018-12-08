@@ -99,7 +99,7 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">A propos</h3>
-            <p class="about__text"><strong>Je m'appelle Florian.</strong> J'ai 26ans et je suis programmeur freelance en France. Je répare et assemble des ordinateurs depuis 2008. J'ai pratiqué la réparation d'ordinateur en entreprise et dans mon quartier pendant 2 ans. Je suis à Saragosse pour réparer des ordinateurs et créer des petits sites web vitrine jusqu’au <strong>30 novembre</strong>.</p>
+            <p class="about__text"><strong>Je m'appelle Florian.</strong> J'ai 26ans et je suis programmeur freelance en France. Je répare et assemble des ordinateurs depuis 2008. J'ai pratiqué la réparation d'ordinateur en entreprise et dans mon quartier pendant 2 ans. Je suis à Saragosse pour réparer des ordinateurs et créer des petits sites web vitrine.</p>
           </div>
         </div>
       </div>

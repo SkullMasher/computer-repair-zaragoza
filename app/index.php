@@ -45,7 +45,7 @@
   </div>
   <main class="background--gray100">
     <section class="services wrapper">
-      <div class="service service--large">
+      <div class="service service--large" id="reparacion-de-ordenadores">
         <div class="flex-container">
           <picture class="services__picture">
             <?php echo file_get_contents('img/speedometer.svg') ?>
@@ -61,7 +61,7 @@
         </div>
       </div>
       <div class="grid-2 has-gutter-xl">
-        <div class="service">
+        <div class="service" id="instalar-aplicacion">
           <h2>Instalar una aplicación</h2>
           <div class="flex-container">
             <div class="item-fluid">
@@ -73,11 +73,43 @@
             </div>
           </div>
         </div>
-        <div class="service">
+        <div class="service" id="website">
           <h2>Quiero este mismo diseño para mi web</h2>
           <div class="flex-container">
             <div class="item-fluid">
               <p class="mbn">Si te interesa este mismo diseño o cualquier otro similar o diferente... Puedo hacer uno justo como este u otro siguiendo tus preferencias.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-2 has-gutter-xl">
+        <div class="service" id="reinstalacion-del-sistema">
+          <h2>Reinstalación del sistema de fábrica.</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <p>¡Elige tu versión favorita de Windows y empieza desde cero!</p>
+              <p>Reinstalación del sistema de fábrica en Macs.</p>
+              <p class="mbn">Recibe consejo y guía en tu cambio a Linux.</p>
+            </div>
+            <div class="service__price">
+              <div>35&nbsp;€</div>
+            </div>
+          </div>
+        </div>
+        <div class="service" id="recuperacion-de-datos">
+          <h2>Recuperación de datos</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <ul>
+                <li>Documentos de Word y Excel.</li>
+                <li>Emails borrados.</li>
+                <li>Fotos familiares.</li>
+                <li>¡Y mucho más!</li>
+              </ul>
+              <p class="mbn">Recupera tus datos tras un accidente o un formateo del disco duro.</p>
+            </div>
+            <div class="service__price">
+              <div>40&nbsp;€</div>
             </div>
           </div>
         </div>

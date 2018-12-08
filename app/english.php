@@ -75,6 +75,38 @@
           </div>
         </div>
       </div>
+      <div class="grid-2 has-gutter-xl">
+        <div class="service" id="reinstalacion-del-sistema">
+          <h2>Reinstalacion del sistema de fabrica</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <p>Choose your favorite version of windows and get a fresh start !</p>
+              <p>Factory reset your mac.</p>
+              <p class="mbn">Get advice and guidance about switching to Linux.</p>
+            </div>
+            <div class="service__price">
+              <div>35&nbsp;€</div>
+            </div>
+          </div>
+        </div>
+        <div class="service" id="recuperacion-de-datos">
+          <h2>Recuperacion de datos</h2>
+          <div class="flex-container">
+            <div class="item-fluid">
+              <ul>
+                <li>word, excel document</li>
+                <li>deleted emails</li>
+                <li>family photos</li>
+                <li>and more !</li>
+              </ul>
+              <p class="mbn">Recover datas back from damaged or formatted hard drive.</p>
+            </div>
+            <div class="service__price">
+              <div>40&nbsp;€</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="flex-container">
         <div class="service__warn center">
           <?php echo file_get_contents('img/info.svg') ?>
@@ -99,7 +131,7 @@
           </div>
           <div class="item-fluid">
             <h3 class="about__title">About me</h3>
-            <p class="about__text"><strong>I'm Florian</strong>. I'm a 26 years old <a href="https://skullmasher.io">freelance programmer</a> from France. I have been repairing and assembling computer since 2008. I did computer repair in a major European corporation and in my neighborhood for 2 years. I'm here in Zaragoza to do computer repair or small website until <strong>November 30th</strong>.</p>
+            <p class="about__text"><strong>I'm Florian</strong>. I'm a 26 years old <a href="https://skullmasher.io">freelance programmer</a> from France. I have been repairing and assembling computer since 2008. I did computer repair in a major European corporation and in my neighborhood for 2 years.</p>
           </div>
         </div>
       </div>
